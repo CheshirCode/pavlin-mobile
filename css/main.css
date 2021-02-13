@@ -337,13 +337,58 @@ text-align: center;
 
 .footer {
   
+    
+    height: 350px;
+  color: #d4dbfa;
 }
 .footer__text {
   height: 150px;
-  background-color: #f6c9b1;
-  
-  
   
   color:#64a21d
-  font: size 30px;
+  font: size 20px;
 }
+
+.footer-block {font-family: "PT Sans", sans-serif;
+  background-color: #f6c9b1;
+}
+.footer-block__row {
+  padding: 5px;
+  
+  
+   
+}
+.footer-block__element {
+  margin: 0px 0px 0px 5px;
+  padding: 5px;
+}
+.block__element_1 {
+}
+.footer-block__content {
+}
+.block__element_3 {
+}
+.link {
+  text-decoration: none;
+  color:rgb(207, 17, 65);
+
+}
+
+
+.link {
+}
+._icon-instagram {
+    
+    font-size: 20px;
+    color:#DD2A7B;
+}
+._icon-vk {
+   
+    font-size: 20px;
+    color: #4c75a3;
+}
+._icon-whatsapp{
+    
+    font-size: 20px;
+    color: #25D366;
+
+} 
