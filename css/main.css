@@ -38,11 +38,11 @@ section {
 html,
 body {
   height: 100%;
-  /* min-width: 1180px; */
+
 }
 body {
   line-height: 1;
-  font-family: $fontFamily;
+  font-family: "PT Sans", sans-serif;
   //text-rendering: optimizeLegibility;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -85,7 +85,7 @@ h6 {
   font-weight: inherit;
   font-size: inherit;
 }
-//-webkit-overflow-scrolling: touch;
+-webkit-overflow-scrolling: touch;
 //animation-play-state: paused !important;
 
 ============/* Блок контента */ =======================================================================
@@ -322,7 +322,7 @@ align-items:center;
 
 }
 
-.ceo_salon {
+.master_salon {
   
 }
 .swiper-container {
@@ -367,18 +367,18 @@ align-items:center;
 .swiper-container {
  
   /* width: 310px; */
-  max-height: 568px;
+  height: 568px;
   padding: 0;
 }
 
-.ceo_salon {
+.master_salon {
   /* max-width: 1180px; */
   margin: 0 auto;
 }
 .cards {
 }
 .cards_title {
-  
+  border: 1px solid #000;
   margin: 5px 0px 5px 0px;
 }
 .cards_row {
@@ -396,7 +396,7 @@ align-items:center;
   max-width: 100%;
   max-height: 100%;
   background-color: #F0F0F0;
-  align-items: stretch;
+  justify-content: stretch;
 }
 .cards_column:hover {
   
@@ -421,7 +421,7 @@ align-items:center;
   border-radius: 50%;
   
   flex: 1 1 25%;
-  max-width: 200px;
+  width: 200px;
   max-height: 200px;
 }
 .card_body li {
